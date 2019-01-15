@@ -1,0 +1,81 @@
+#container {
+    border: 3px solid red;
+    display: block;
+}
+
+/* div {
+    border: 1px dotted red;
+} */
+
+#heading {
+    border: 1px dotted red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: aquamarine;
+}
+
+.name-title {
+    border: 1px dotted red;
+    float: left;
+    padding-left: 5em;
+}
+
+.contact-bar {
+    border: 1px dotted red;
+    float: right;
+    padding-right: 5em;
+}
+.contact-bar-img {
+    border: 1px dotted red;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.body {
+    width: 100%;
+    overflow-x: hidden;
+    clear: both;
+    border: 1px dotted red;
+    margin-top: 150px;
+}
+
+.summary p {
+    border: 1px dotted red;
+    width: 60%;
+    display: inline-block;
+}
+.summary img {
+    display: inline-block;
+    vertical-align: text-top
+}
+.summary {
+    display: block;
+}
+
+.plain-list {
+    list-style: none;
+}
+
+.lang-chart {
+    display: inline-block;
+}
+
+.skill-chart {
+    display: inline-block;
+}
+
+
+.footer {
+    border: 1px dotted red;
+    background-color: #bae5f3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 2%;
+    /* display: block; */
+}
